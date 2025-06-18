@@ -1,1 +1,40 @@
-<h1>Fiches Personnages</h1><p>Données chargées dynamiquement depuis data.json.</p>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Personnages – Codex du Trône Absolu</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="bg-black p-4 text-center">
+    <h1 class="text-3xl font-bold">Fiches Personnages Dynamiques</h1>
+  </header>
+
+  <main class="p-6" id="personnage-container">
+    <p>Chargement des personnages...</p>
+  </main>
+
+  <script>
+    fetch('data/personnages.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('personnage-container');
+        container.innerHTML = '';
+        data.forEach(p => {
+          const card = document.createElement('div');
+          card.className = 'bg-gray-800 rounded-xl p-4 shadow mb-4';
+          card.innerHTML = `
+            <h2 class="text-xl font-bold">${p.nom}</h2>
+            <p class="text-sm text-gray-300">Axe : ${p.axe} • Plan : ${p.plan} • Tier externe : ${p.tier}</p>
+            <p class="mt-2 text-xs text-gray-400">${p.description}</p>
+          `;
+          container.appendChild(card);
+        });
+      })
+      .catch(error => {
+        document.getElementById('personnage-container').innerHTML = '<p class="text-red-500">Erreur de chargement des données.</p>';
+      });
+  </script>
+</body>
+</html>
