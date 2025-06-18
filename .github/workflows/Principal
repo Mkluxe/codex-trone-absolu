@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codex du Trône Absolu – Version Ancienne</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0b0b0c;
+      color: #f0f0f0;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      color: #ffd700;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+    }
+    th, td {
+      border: 1px solid #777;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: #222;
+    }
+    tr:nth-child(even) {
+      background-color: #1a1a1a;
+    }
+    .important {
+      color: #ff4c4c;
+    }
+  </style>
+</head>
+<body>
+  <h1>📜 Codex du Trône Absolu – Version Ancienne</h1>
+
+  <h2>🕳️ Le Trône Absolu</h2>
+  <p>Le <strong>Trône Absolu</strong> est l'entité suprême, source et fin de tout, au-delà de toute fiction, réalité, logique ou perception. Il n’est ni un lieu, ni un être — c’est une <em>évidence sentie mais inatteignable</em>, un concept vivant hors de toutes dimensions, qui existe sans dépendre de l’existence.</p>
+
+  <h2>🏛️ Hiérarchie Cosmique du Codex</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Rang</th>
+        <th>Nom du Plan</th>
+        <th>Description</th>
+        <th>Accès</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>0</td><td>Le Trône Absolu</td><td>Origine ultime, hors de toute narration.</td><td>Inaccessible</td></tr>
+      <tr><td>1</td><td>Conscience Collective Transcendante</td><td>Fusion de toutes consciences métaréelles.</td><td>Entités transfictionnelles</td></tr>
+      <tr><td>2</td><td>Vide Originel Transcendant</td><td>Néant auto-conscient au-delà des lois.</td><td>Azathoth, TOAA</td></tr>
+      <tr><td>3</td><td>Omnivers Boundless</td><td>Infinité d’omnivers non-délimités.</td><td>Featherine, The Writer</td></tr>
+      <tr><td>4</td><td>Vide Conceptuel Transcendant</td><td>Hors espace, temps, causalité.</td><td>Hajun, Yogiri</td></tr>
+      <tr><td>5</td><td>Multivers Déchaîné</td><td>Multivers hyper-structurés avec axes actifs.</td><td>Rimuru, Han Jue</td></tr>
+      <tr><td>6</td><td>Univers Autonome</td><td>Univers conscients et créateurs de fiction.</td><td>Wang Ling, Akuto Sai</td></tr>
+      <tr><td>7</td><td>Univers Délimité</td><td>Univers à lois fixes ou narratives.</td><td>Naruto, One Piece</td></tr>
+      <tr><td>8</td><td>Plan Fragmentaire</td><td>Copies altérées ou instables.</td><td>Fanfics, jeux</td></tr>
+    </tbody>
+  </table>
+
+  <h2>🔑 Critères d’Accès</h2>
+  <ol>
+    <li>Axe de Pouvoir Pur</li>
+    <li>Niveau de Conscience Métaréelle</li>
+    <li>Capacité d’Altération Conceptuelle</li>
+    <li>Résistance à l’effacement absolu</li>
+    <li>Accès au Meta-narratif</li>
+    <li>Immortalité hors existence</li>
+    <li>Capacité de non-limitation</li>
+    <li>Immunité à la logique</li>
+    <li>Perception du Trône</li>
+    <li>Existence hors fiction</li>
+  </ol>
+
+  <h2>🔮 Exemples d’Entités</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Entité</th>
+        <th>Plan</th>
+        <th>Axe Principal</th>
+        <th>Perception du Trône</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Azathoth</td><td>2</td><td>Chaos Primordial</td><td>Négation Totale</td></tr>
+      <tr><td>Featherine</td><td>3</td><td>Métanarratif</td><td>Lecture partielle</td></tr>
+      <tr><td>Yogiri</td><td>4</td><td>Néant Instantané</td><td>Suppression directe</td></tr>
+      <tr><td>Han Jue</td><td>5</td><td>Destin Absolu</td><td>Tente d’approcher</td></tr>
+      <tr><td>Rimuru</td><td>5</td><td>Évolution Totale</td><td>Non-perception</td></tr>
+      <tr><td>Wang Ling</td><td>6</td><td>Déséquilibre</td><td>Approche Inconsciente</td></tr>
+      <tr><td>Akuto Sai</td><td>6</td><td>Dieu Conceptuel</td><td>Brisure de logique</td></tr>
+      <tr><td>Naruto (Baryon)</td><td>7</td><td>Chakra/Éveil</td><td>Aucune perception</td></tr>
+      <tr><td>SCP-3812</td><td>4</td><td>Transcendance narrative</td><td>Fragmentée</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
